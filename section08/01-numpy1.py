@@ -10,10 +10,6 @@ import numpy
 arr=[1, 2, 3]
 print(arr)       #[1, 2, 3]
 
-a=numpy.array(arr)
-print(a)        #[1 2 3]
-
-
 #리스트를 통한 1차원 배열 만들기
 a=numpy.array(arr)
 print(a)                    #[1 2 3]
@@ -45,4 +41,4 @@ print(arr3[1])      #2
 print(arr3[3])      #7
 
 for i, v in enumerate(arr3):
-    print("%d번째 원소 :%d")
+    print("%d번째 원소 :%d"%(i, v))

@@ -5,6 +5,7 @@
 #모듈 참조하기
 from matplotlib import pyplot
 
+#데이터
 data=[0, 1, 2, 3, 4]
 
 #그래프 설정시작 → 모든 그래프 작업 시작시에 호출
