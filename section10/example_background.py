@@ -38,8 +38,11 @@ gen=wc.generate(text)
 
 pyplot.figure()
 
+from wordcloud import ImageColorGenerator
+img_colors=ImageColorGenerator(img_array)
+
 pyplot.imshow(gen, interpolation="bilinear")
-wc.to_file("simple3.png")
+wc.to_file("exsimple3.png")
 
 pyplot.close()
 
