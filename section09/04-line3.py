@@ -54,7 +54,7 @@ x=list(range(0, len(label)))
 pyplot.xticks(x, label)
 
 #그래프 저장하기
-pyplot.savefig('traffic3.png', dpi=200)
+pyplot.savefig('section09/test.png', dpi=200)
 
 
 pyplot.show()

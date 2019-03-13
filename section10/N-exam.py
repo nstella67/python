@@ -38,7 +38,7 @@ wc=WordCloud(font_path="NanumGothic", width=1200, height=800, scale=2.0, max_fon
 gen=wc.generate_from_frequencies(tags)
 pyplot.figure()
 pyplot.imshow(gen.recolor(color_func=img_colors), interpolation="bilinear")
-wc.to_file("exam111.png")
+wc.to_file("section10/test1.png")
 pyplot.show()
 pyplot.close()
 
